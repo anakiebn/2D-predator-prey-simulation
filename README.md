@@ -25,7 +25,7 @@
 
  ## The Initial World View
 
--Note that 'X' is a bug and 'o' is an ant
+- Note that 'X' is a bug and 'o' is an ant
 
 ![InitWorld](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/initial.png)
 
