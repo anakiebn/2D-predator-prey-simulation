@@ -20,23 +20,32 @@
 - If it moves 3 times without eating an ant, it dies( disappear).
 - If the ant survives/ not eaten in 3 last moves, it breeds.
 
-
 # Demo
 
- ## Initial world
+ ## The Initial World View
 
 -Note that 'X' is a bug and 'o' is an ant
 
-![Initially the world looks like this grid](https://github.com/anakiebn/AntBugSimulationGame/blob/cc8eb4fa7e295210bc81320b11f57e10a435691b/inti.png)
+![InitWorld](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/initial.png)
 
- ## When the starve time is 3 for the bug it dies in the next time step
+ ## Log Messages show Organisms Status
 
-![starveTime](https://github.com/anakiebn/AntBugSimulationGame/blob/cc8eb4fa7e295210bc81320b11f57e10a435691b/starvTi.png)
+  #### Ants with activeTime of 3 will breed on the next timestep
+  #### Bugs with starveTime of 3 will die on the next timestep
+  #### Bugs with activeTime of 8 will breed on the next timestep
+
+![logs](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/showing%20timestep%203%20for%20ants%20and%20starve%20time%20for%20bug.png)
 
  ## Should the ant survive 3 steps it breeds
 
-![ant breeds](https://github.com/anakiebn/AntBugSimulationGame/blob/cc8eb4fa7e295210bc81320b11f57e10a435691b/new%20ant.png)
+![ant breeds](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/ant%20breeds.png)
 
+ ## Bugs with starveTime of 3 will dies
 
+![bug dies](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/bug&20dies.png)
+
+ ## The official problem instructions
+
+![problem](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/Screenshot%20(45).png)
  
 
