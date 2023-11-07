@@ -6,7 +6,8 @@
 
 # How it works
 
-- As a user you'll need to initialize the world with bugs and ants just make sure they can fit into the world
+- By default the world is a 4x4 grid with 2 bugs and 3 ants.
+- As a user you can customize the size of the world with certain number of bugs and ants just make sure they can fit into the world
 - Define the grid, could be 4×4 grid, less or more.
 - After defining all that, to play the game it's simple.
 - press enter then the organisms will automatically eat each other, breed and some will die and disappear
