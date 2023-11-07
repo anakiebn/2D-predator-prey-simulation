@@ -1,5 +1,5 @@
-package org.example;
-import java.util.Scanner;
+package org.anakie;
+import java.util.*;
 
 public class Game {
 
@@ -18,42 +18,44 @@ public class Game {
     public void Play(){
 
 
+        boolean empty=false;
         Scanner scanner=new Scanner(System.in);
         boolean play=true;
         String n;
-        while(play){
+        out: while(play){
+
+            if(world.empty()){
+                System.out.println("Game over!!!");
+                break;
+            }
             turn++;
             System.out.print("bug turn: "+turn);
             n=scanner.nextLine();
-
+            System.out.println();
             if(n.equals("")){
+
                 world.setWorld(bug.move());
                 display(world.getWorld());
             }else{play=false;}
 
+
             System.out.println("ant turn: "+turn);
             n=scanner.nextLine();
+
             if(n.equals("")){
                 world.setWorld(ant.move());
                 display(world.getWorld());
             }else play=false;
+
         }
+
+
 
 
 
     }
 
     public void display(char[][] world){
-//        for(char[] array: world){
-//            for(char symbol:array){
-//                System.out.print("[ "+symbol+" ]");
-//            }
-//            System.out.println();
-//        }
-//        System.out.println(
-//
-//        );
-
         // shows the grid with in index format
         System.out.println();
         System.out.print("    ");
@@ -71,6 +73,8 @@ public class Game {
         System.out.println();
 
     }
+
+
 
 
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.anakie;
 
 
 public class Bug extends Organism{
