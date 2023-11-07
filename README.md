@@ -43,7 +43,7 @@
 
  ## Bugs with starveTime of 3 will dies
 
-![bug dies](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/bug&20dies.png)
+![bug dies](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/bug%20dies.png)
 
  ## The official problem instructions
 
