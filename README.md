@@ -32,9 +32,9 @@
 
  ## Log Messages show Organisms Status
 
-  #### - Ants with activeTime of 3 will breed on the next timestep
-  #### - Bugs with starveTime of 3 will die on the next timestep
-  #### - Bugs with activeTime of 8 will breed on the next timestep
+  - ####  Ants with activeTime of 3 will breed on the next timestep
+  - ####  Bugs with starveTime of 3 will die on the next timestep
+  - ####  Bugs with activeTime of 8 will breed on the next timestep
 
 ![logs](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/showing%20timestep%203%20for%20ants%20and%20starve%20time%20for%20bug.png)
 
