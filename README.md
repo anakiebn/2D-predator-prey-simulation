@@ -13,6 +13,7 @@
 - press enter then the organisms will automatically eat each other, breed and some will die and disappear
 - the game ends if there are no organisms at all
 - As a developer you can activate/disable the log messages that show which organism moved and their location or status.
+- By default the log messages are enabled
 
 # Game rules
 
