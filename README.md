@@ -46,7 +46,7 @@
 
 ![bug dies](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/bug%20dies.png)
 
- ## The official problem instructions
+ ## The official problem statement
 
 ![problem](https://github.com/anakiebn/2D-predator-prey-simulation/blob/ad7cf53e835932f16e4fad83e8b79dcae962e8ac/Screenshot%20(45).png)
  
